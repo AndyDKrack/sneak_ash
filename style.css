@@ -78,3 +78,34 @@ button {
     flex: 1 0 auto;
 }
 
+.header-a {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    padding: 32px;
+}
+
+.container-a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 8px;
+    gap: 32px;
+}
+
+.pic {
+    width: 250px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.text {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
